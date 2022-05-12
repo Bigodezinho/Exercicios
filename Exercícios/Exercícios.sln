@@ -25,11 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicío10", "exercicío1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercício11", "exercício11\exercício11.csproj", "{055B33E2-6F35-4A6B-B414-809450BFC3B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercício12", "exercício12\exercício12.csproj", "{11F7C820-6F76-4316-AB30-7FAE329856C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercício12", "exercício12\exercício12.csproj", "{11F7C820-6F76-4316-AB30-7FAE329856C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercício13", "exercício13\exercício13.csproj", "{FE9A8B5B-1032-46B1-A93C-D0BF546A0849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercício13", "exercício13\exercício13.csproj", "{FE9A8B5B-1032-46B1-A93C-D0BF546A0849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercício14", "exercício14\exercício14.csproj", "{FD7160AD-5686-4A4C-AC13-74D6902819F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "banco", "exercício14\banco.csproj", "{FD7160AD-5686-4A4C-AC13-74D6902819F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
