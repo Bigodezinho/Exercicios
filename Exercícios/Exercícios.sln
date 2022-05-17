@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercício13", "exercício1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "banco", "exercício14\banco.csproj", "{FD7160AD-5686-4A4C-AC13-74D6902819F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculadora", "calculadora\calculadora.csproj", "{09A04C13-258B-4308-91F8-2C5C09D7F0BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadora", "calculadora\calculadora.csproj", "{09A04C13-258B-4308-91F8-2C5C09D7F0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array10", "Array10\Array10.csproj", "{C98FC8AF-8024-4978-B2EB-F759D7136FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{09A04C13-258B-4308-91F8-2C5C09D7F0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A04C13-258B-4308-91F8-2C5C09D7F0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A04C13-258B-4308-91F8-2C5C09D7F0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98FC8AF-8024-4978-B2EB-F759D7136FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98FC8AF-8024-4978-B2EB-F759D7136FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98FC8AF-8024-4978-B2EB-F759D7136FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98FC8AF-8024-4978-B2EB-F759D7136FA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
