@@ -7,36 +7,29 @@ namespace Array10
         static void Main(string[] args)
         {
 
+            int[] array10 = new int[10];
 
 
+            for (int i = 0; i < array10.Length; i++)
+            {
+                array10[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
 
-
-            //double[] array10 = new double[10];
-
-            //contador(array10);
-
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    for (int j = 0; j < 10; j++)
-            //    {
-            //        array10[j] = Convert.ToDouble(Console.ReadLine());
-
-            //        if (array10[i] > array10[j])
-            //        {
-            //            Console.WriteLine(array10[i]);
-            //        }
-            //    }
-            //}
-
-            //static void contador(double[] a)
-            //{
-            //    for (int i = 0; i < 10; i++)
-            //    {
-            //        Console.WriteLine("Insira 10 números:");
-            //        a[i] = Convert.ToDouble(Console.ReadLine());
-            //    }
-            //}
+            for (int i = 0; i < array10.Length; i++)
+            {
+                int auxiliar;
+                for (int j = i + 1; j < array10.Length; j++)
+                {
+                    if (array10[i] > array10[j])
+                    {
+                        auxiliar = array10[i];
+                        array10[i] = array10[j];
+                        array10[j] = auxiliar;
+                    }
+                }
+            }
+                Console.WriteLine($"\nO maior valor é {array10[(array10.Length - 1)]}");
         }
     }
 }
