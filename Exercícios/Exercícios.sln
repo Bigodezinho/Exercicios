@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadora", "calculadora\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array10", "Array10\Array10.csproj", "{C98FC8AF-8024-4978-B2EB-F759D7136FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "divisores", "divisores\divisores.csproj", "{C0BD48EF-B71A-4805-9F99-6199A9463F61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "divisores", "divisores\divisores.csproj", "{C0BD48EF-B71A-4805-9F99-6199A9463F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBool", "ArrayBool\ArrayBool.csproj", "{859B732F-F60B-49F3-83D0-37841AB834C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3notas10alunos", "3notas10alunos\3notas10alunos.csproj", "{EA68DE7E-43B4-475A-A790-112782D24878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{C0BD48EF-B71A-4805-9F99-6199A9463F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0BD48EF-B71A-4805-9F99-6199A9463F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0BD48EF-B71A-4805-9F99-6199A9463F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859B732F-F60B-49F3-83D0-37841AB834C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859B732F-F60B-49F3-83D0-37841AB834C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859B732F-F60B-49F3-83D0-37841AB834C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859B732F-F60B-49F3-83D0-37841AB834C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA68DE7E-43B4-475A-A790-112782D24878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA68DE7E-43B4-475A-A790-112782D24878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA68DE7E-43B4-475A-A790-112782D24878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA68DE7E-43B4-475A-A790-112782D24878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
