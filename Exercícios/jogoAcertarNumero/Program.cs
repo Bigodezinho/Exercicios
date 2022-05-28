@@ -17,7 +17,7 @@ namespace jogoAcertarNumero
 
 
 
-            while (tentativa != numeroAleatorio.Next(limiteMin, limiteMax + 1))
+            while (tentativa != numeroAleatorio.Next(limiteMin, limiteMax))
             {
                 Console.WriteLine("Errou, tente novamente:");
                 tentativa = Convert.ToInt32(Console.ReadLine());

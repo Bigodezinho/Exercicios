@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jogoAcertarNumero", "jogoAc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayInvertido", "ArrayInvertido\ArrayInvertido.csproj", "{7739A37D-FEE0-4E88-83E5-E6DA17E87274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mmc", "mmc\mmc.csproj", "{E910A03F-055A-4DDD-A780-A779DB919C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mmc", "mmc\mmc.csproj", "{E910A03F-055A-4DDD-A780-A779DB919C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdc", "mdc\mdc.csproj", "{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mdc", "mdc\mdc.csproj", "{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triângulo", "triângulo\triângulo.csproj", "{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
