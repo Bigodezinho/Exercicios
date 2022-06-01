@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mmc", "mmc\mmc.csproj", "{E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mdc", "mdc\mdc.csproj", "{57B0FE73-7A7B-44F9-9C22-F1D8F73322BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triângulo", "triângulo\triângulo.csproj", "{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "triângulo", "triângulo\triângulo.csproj", "{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercícios31.05.22", "Exercícios31.05.22\Exercícios31.05.22.csproj", "{6D153B9B-0969-478F-B0CD-14745DE5AB6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

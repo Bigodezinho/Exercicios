@@ -6,65 +6,87 @@ namespace triângulo
     {
         static void Main(string[] args)
         {
-            int ladoMaior = 0;
-            int lado1 = Convert.ToInt32(Console.ReadLine());
-            int lado2 = Convert.ToInt32(Console.ReadLine());
-            int lado3 = Convert.ToInt32(Console.ReadLine());
-            int sair = 1;
+            double a, b, c;
+            a = Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
+            c = Convert.ToDouble(Console.ReadLine());
+            bool repete = true;
 
+            while (repete == true)
+            {
+                //isoceles
+                if (a == b && (a + b) > c)
+                {
+                    Console.WriteLine("Isóceles");
+                }
+                if (b == c && (b + c) > a)
+                {
+                    Console.WriteLine("Isóceles");
+                }
+                if (c == a && (c + a) > b)
+                {
+                    Console.WriteLine("Isóceles");
+                }
+                //isoceles
 
-            while (sair == 1)
-            {
-                if (lado1 > lado2 && lado1 > lado3)
+                //escaleno
+                if (a != b && (a + b) > c)
                 {
-                    ladoMaior = lado1;
+                    Console.WriteLine("Isóceles");
                 }
-                if (lado2 > lado1 && lado2 > lado3)
+                if (b != c && (b + c) > a)
                 {
-                    ladoMaior = lado2;
+                    Console.WriteLine("Isóceles");
                 }
-                if (lado3 > lado1 && lado3 > lado2)
+                if (c != a && (c + a) > b)
                 {
-                    ladoMaior = lado3;
+                    Console.WriteLine("Isóceles");
                 }
+                //escaleno
 
-                //verificar se é triângulo
-                Maior(lado1, lado2, lado3, ladoMaior, sair); //lado1
-                //Maior(lado2, lado1, lado3, ladoMaior, sair); //lado2
-                //Maior(lado3, lado1, lado2, ladoMaior, sair); //lado3
-        }
-        static void Maior(int lado1, int lado2, int lado3, int ladoMaior, int sair)
-        {
-            sair = 1;
-            if (ladoMaior == lado2 && lado2 == lado3 && lado3 == ladoMaior && lado3 == lado2)
-            {
-                Console.WriteLine("É um triângulo equilátero");
-            }
-            if (lado1 > lado2 && lado1 > lado3)
-            {
-                ladoMaior = lado1;
-                if (lado2 + lado3 < ladoMaior)
+                //equilatero
+                if (a == b && a == c)
                 {
-                    if ((lado2 + lado3) > ladoMaior)
+                    Console.WriteLine("Equilátero");
+                }
+                if (b == c && b == a)
+                {
+                    Console.WriteLine("Equilátero");
+                }
+                if (c == a && c == b)
+                {
+                    Console.WriteLine("Equilátero");
+                }
+                else
+                {
+                    Console.WriteLine("Não é um triângulo, digite 1 para inserir novamente os valores ou digite 0 para sair");
+                    a = Convert.ToInt32(Console.ReadLine());
+                    if (a == 1)
                     {
 
-                        if (ladoMaior == lado2 || lado2 == lado3 || lado3 == ladoMaior || lado3 == lado2)
-                        {
-                            Console.WriteLine("É um triângulo isóceles");
-                        }
-                        sair = 0;
+                        a = Convert.ToInt32(Console.ReadLine());
+                        b = Convert.ToInt32(Console.ReadLine());
+                        c = Convert.ToInt32(Console.ReadLine());
+
                     }
-                    else
+                    if (a == 0)
                     {
-                        Console.WriteLine("Não é um triângulo, digite 1 para inserir novamente os valores ou digite 0 para sair");
-                        sair = Convert.ToInt32(Console.ReadLine());
-                        if (sair == 1)
-                        {
-                            lado1 = Convert.ToInt32(Console.ReadLine());
-                            lado2 = Convert.ToInt32(Console.ReadLine());
-                            lado3 = Convert.ToInt32(Console.ReadLine());
-                        }
+                        repete = false;
                     }
+                }
+                Console.WriteLine("Digite 1 para inserir novamente os valores ou digite 0 para sair");
+                a = Convert.ToInt32(Console.ReadLine());
+                if (a == 1)
+                {
+
+                    a = Convert.ToInt32(Console.ReadLine());
+                    b = Convert.ToInt32(Console.ReadLine());
+                    c = Convert.ToInt32(Console.ReadLine());
+
+                }
+                if (a == 0)
+                {
+                    repete = false;
                 }
             }
         }
