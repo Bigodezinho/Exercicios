@@ -26,8 +26,10 @@ namespace Exercícios31._05._22
                 b = Convert.ToDouble(Console.ReadLine());
                 if (a > b)
                     Console.WriteLine(a + " é o maior valor.");
-                if (a < b)
+                else if (a < b)
                     Console.WriteLine(b + " é o maior valor.");
+                else
+                    Console.WriteLine("Os valores são iguais");
             }
             if (opcao == 3)
             {
