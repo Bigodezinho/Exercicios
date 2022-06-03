@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mdc", "mdc\mdc.csproj", "{5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "triângulo", "triângulo\triângulo.csproj", "{64CB7AFF-6A54-4ED7-862D-9EE1E2669B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercícios31.05.22", "Exercícios31.05.22\Exercícios31.05.22.csproj", "{6D153B9B-0969-478F-B0CD-14745DE5AB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercícios31.05.22", "Exercícios31.05.22\Exercícios31.05.22.csproj", "{6D153B9B-0969-478F-B0CD-14745DE5AB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios02.06.22", "exercicios02.06.22\exercicios02.06.22.csproj", "{31095965-C928-498F-809A-D0E9718673AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D153B9B-0969-478F-B0CD-14745DE5AB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31095965-C928-498F-809A-D0E9718673AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31095965-C928-498F-809A-D0E9718673AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31095965-C928-498F-809A-D0E9718673AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31095965-C928-498F-809A-D0E9718673AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
