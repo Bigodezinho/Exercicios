@@ -6,7 +6,6 @@ namespace exercicios02._06._22
     {
         static void Main(string[] args)
         {
-
             //exercicio1
             Console.WriteLine("Exercício 1\r\n");
             double[] a = {10,20,30,40,50};
@@ -79,10 +78,23 @@ namespace exercicios02._06._22
                                                                 
                 for (int j = 0; j < matriz.GetLength(1); j++)   //Segundo for para as colunas
                     matriz[i, j] = random.Next(0, 10);
-
             }
+        }
+        //static + tipo do retorno + nome da função + (parametros entre parenteses){}
 
+        //Usando função para preencher um vetor
 
+        int[] valores = PreencherVetor(50);
+
+        static int[] PreencherVetor(int tamanho)
+        {
+            int[] vetor = new int[tamanho];
+            Random random = new Random();
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                vetor[i] = random.Next(0, 10);
+            }
+            return vetor;
         }
     }
 }
